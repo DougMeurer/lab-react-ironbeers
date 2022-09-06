@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.beerContainer{
+  display: flex;
+  border-bottom: 1px solid rgb(206, 206, 206);
+  padding: 5%;
+}
+.beerContainerImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+}
+
+.beerContainer > div > img{
+  width: 20%;
+}
+
+.beerContainer > div > p{
+  font-size: calc(9px + 2vmin);
+}
+.beerContainerText{
+  width: 60vw;
+}
+.align-left{
+  text-align: left;
+}
+.text-gray{
+  color: #aaaaaa;
+}
